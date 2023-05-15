@@ -51,7 +51,7 @@
     .branding-container .branding-container_content {
         height: 200px;
     }
-    
+
     .branding-container .branding-container_content h2 {
         font-size: 2rem;
         text-align: center;
@@ -67,6 +67,11 @@
     }
 
     /* Testimonials Container */
+
+    .testimonials-container {
+        height: auto;
+    }
+
     .testimonials-container .testimonials-container_title {
         font-size: 0.875rem;
     }
@@ -84,5 +89,38 @@
         width: 100%;
         margin-top: 40px;
         height: 334px;
+    }
+
+    /* Footer container  */
+
+    .footer-container {
+        padding: 105px 0 24px;
+    }
+
+    .footer-container .footer-container_list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-container .footer-container_list .footer-container_item {
+        width: 50%;
+        margin-top: 72px;
+    }
+
+    .footer-container .footer-container_list .footer-container_item .footer-container_item-desc {
+        margin: auto;
+        text-align: center;
+        margin-top: 34px;
+    }
+
+    .footer-container .footer-container_list .footer-container_item ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .footer-container .footer-container_list .footer-container_item .footer-container_item-heading {
+        text-align: center;
     }
 }
